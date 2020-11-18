@@ -1,5 +1,6 @@
 # StockVisualizer
 Use this web app to visualize stock data from the year 2020 to the present day! 
+Uses Flask, bokeh library, and pandas_datareader
 
 <img width="771" alt="Screen Shot 2020-11-18 at 4 07 21 PM" src="https://user-images.githubusercontent.com/71047481/99590403-4cdb5d80-29bb-11eb-84a5-1570fcb7ce6c.png">
 <img width="646" alt="Screen Shot 2020-11-18 at 4 07 33 PM" src="https://user-images.githubusercontent.com/71047481/99590410-4ea52100-29bb-11eb-8255-7a36f86f660e.png">
