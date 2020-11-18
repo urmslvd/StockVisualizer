@@ -1,0 +1,21 @@
+body {
+  background-color: #d88fa8;
+
+}
+
+.textContainer, .code{
+  padding: 90px;
+  align-content: center;
+  text-align: center;
+
+}
+
+.input {
+  margin: 25px;
+  padding: 5px;
+}
+
+.button1 {
+  padding: 5px;
+  margin-top: 10px;
+}

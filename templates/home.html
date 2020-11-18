@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel = "stylesheet" href= "static/css/main.css">
+
+
+    <title></title>
+  </head>
+  <body>
+    <div class="textContainer">
+      <h1>Enter the code</h1>
+
+  <form action="{{ url_for('data')}}" method = "POST">
+    <input class = "input" title="Letter code of company" placeholder="letter code" type="text" name="code_name" required>  <br>
+    <button class = "button" type="submit" style = "align-content: center"> Submit </button>
+  </form>
+    </div>
+  </body>
+</html>
